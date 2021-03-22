@@ -83,11 +83,11 @@ function draw() {
 }
 
 
-function Keypressed(){
+function keyPressed(){
 	if(keyCode === LEFT_ARROW){
 
 		helicopterSprite.x=helicopterSprite.x-20;
-		translstion={x:20,y:0}
+		translation={x:20,y:0}
 		Matter.Body.translate(packageBody,translation)
 
 	}
